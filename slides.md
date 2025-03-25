@@ -765,7 +765,7 @@ metadata:
   name: ${tc_name_1}
   namespace: ${namespace_1}
 spec:
-  clusterDomain: "cluster.local"
+  clusterDomain: "${cluster_domain_1}"
   acrossK8s: true
 ```
 
@@ -774,12 +774,12 @@ metadata:
   name: "${tc_name_2}"
   namespace: ${namespace_2}
 spec:
-  clusterDomain: "cluster.local"
+  clusterDomain: "${cluster_domain_2}"
   acrossK8s: true
   cluster:
     name: "${tc_name_1}"
     namespace: "${namespace_1}"
-    clusterDomain: "cluster.local"
+    clusterDomain: "${cluster_domain_1}"
 ```
 
 ---

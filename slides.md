@@ -784,7 +784,7 @@ spec:
 
 ---
 layout: figure
-figureCaption:
+figureCaption: 
 figureUrl: /heterogeneous3.png
 ---
 
